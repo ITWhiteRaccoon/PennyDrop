@@ -8,8 +8,8 @@ namespace PennyDrop
 {
     public enum Direction
     {
-        Left = 0,
-        Right = 1
+        Left,
+        Right
     }
 
     class PennyDrop
@@ -69,7 +69,7 @@ namespace PennyDrop
 
             public void Switch()
             {
-                Position = ~Position;
+                Position = 1 - Position;
             }
         }
     }

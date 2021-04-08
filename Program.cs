@@ -6,7 +6,9 @@ namespace PennyDrop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var teste = new PennyDrop();
+            teste.A2.Switch();
+            Console.WriteLine(teste.IsWinner(PennyDrop.Input.Y));
         }
     }
 }
